@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage('Hello github') {
+            steps {
+                echo 'My Jenkins Pipeline'
+            }
+        }
+    }
+}
